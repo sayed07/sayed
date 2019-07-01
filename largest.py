@@ -1,7 +1,7 @@
-e,d,f=map(int,(input().split()))
-if e>d and e>f:
-    print(e)
-elif d>e and d>f:
-    print(d)
+a,b,c=map(int,(input().split()))
+if a>b and a>c:
+    print(abs)
+elif b>a and b>c:
+    print(b)
 else:
-    print(f)
+    print(c)
