@@ -1,3 +1,5 @@
-n=int(input())
-for i in range(0,n):
-    print("Hello")
+n=int(input(""))
+count=0
+while(count<n):
+  count=count+1
+  print('Hello')
