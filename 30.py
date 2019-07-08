@@ -1,0 +1,5 @@
+w,x=map(int,input().split())
+y,z=map(int,input().split())
+n1=abs(w-y)
+n2=abs(x-z)
+print(n1,n2)
