@@ -1,5 +1,5 @@
-p=int(input())
-if(p%2==0):
-  print(p)
+pp=int(input())
+if pp%2==0:
+  print(pp)
 else:
-  print(p-1)
+  print(pp-1)
