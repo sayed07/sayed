@@ -1,2 +1,2 @@
-b=int(input())
-print(b*2)
+bj=int(input())
+print(bj*2)
