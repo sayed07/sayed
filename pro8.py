@@ -2,7 +2,7 @@ import math
 pp1,qq1=map(int,input().split())
 n=[]
 j=list(map(int,input().split()))
-for r in range(0,q1):
+for r in range(0,qq1):
         x,y=map(int,input().split())
         n.append([x,y])
 for r in n:
