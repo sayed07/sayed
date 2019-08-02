@@ -1,10 +1,10 @@
-b=input()
-n=map(int,input().split())
-f=[]
-for i in n:
-    enum=bin(i)
-    f.append(enum)
-fraud=sorted(f)
-fraud.reverse()
-for r in fraud:
+pp=input()
+qq=map(int,input().split())
+rr=[]
+for n in qq:
+    eat=bin(n)
+    rr.append(eat)
+fin=sorted(rr)
+fin.reverse()
+for r in fin:
     print(int(r,2))
