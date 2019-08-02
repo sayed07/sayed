@@ -1,11 +1,11 @@
-pp=int(input())
-qq=list(map(int,input().split()))
-rr=[1]*app1
-for i in range(app1):
-    if i==0:
-        if qq[i]>qq[i+1]:
-            pp[i]=rr[i]+pp[i+1]
-    elif i>0:
-        if qq[i]>qq[i-1]:
-            rr[i]=pp[i]+pp[i-1]
-print(sum(pp))
+b=int(input())
+n=list(map(int,input().split()))
+s=[1]*b
+for r in range(b):
+    if r==0:
+        if n[r]>n[r+1]:
+            s[r]=s[r]+s[r+1]
+    elif r>0:
+        if n[r]>n[r-1]:
+            s[r]=s[r]+s[r-1]
+print(sum(s))
