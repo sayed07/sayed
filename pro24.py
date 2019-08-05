@@ -4,7 +4,7 @@ maximum = 0
 cont = 0
 for r in range(nn-1):
     if lis[r] < lis[r+1]:
-        cnt +=1
+        cont +=1
         if maximum < cont:
             maximum = cont
     else:
