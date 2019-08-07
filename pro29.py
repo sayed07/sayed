@@ -14,7 +14,7 @@ while bb<90 and bb<inp:
 
     s+=int(j)
 
-  if s+(inp-ii)==inp:
+  if s+(inp-bb)==inp:
 
     nn+=1
 
